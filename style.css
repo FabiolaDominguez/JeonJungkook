@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lugrasimo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@1,300&family=Lugrasimo&display=swap');
+
+#logo {
+  width: 100%;
+  height: 170px;
+}
+header{
+  background-color: #000000;
+}
+nav {
+  background-color: #000000;
+  padding: 10px;
+  align-content: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+header ul li {
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+a:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+main {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  font-family: cinzel;
+}
+.text-al {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  padding: 15px;
+}
+#jk1 {
+  width: 300px;
+ 
+}
+#jk2 {
+  width: 300px;
+
+}
+.row{
+  justify-content: center;
+  padding: 10px;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.mvseven{
+  background-color: rgb(199, 199, 199);
+  margin-top: 20px;
+  padding: 15px;
+}
+.youtube{
+position: relative;
+margin: 5px auto;
+width: 600px;
+height: 400px;
+max-width: 100%;
+max-height: 100%;
+}
+.youtube iframe{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+.bbc{
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  padding: 15px;
+}
+footer h5{
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+  font-family: Cormorant Garamond;
+}

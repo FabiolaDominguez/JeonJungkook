@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lugrasimo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@1,300&family=Lugrasimo&display=swap');
+
+#logo{
+    width: 100%;
+    height: 170px;
+}
+header{
+    background-color: #000000;
+}
+nav {
+    background-color: #000000;
+    padding: 10px;
+    align-content: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+ header ul li {
+    margin: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    transition: background-color 0.3s;
+  }
+  a:hover {
+    background-color: #555;
+  }
+  @media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  h1{
+    font-family: cinzel;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.billboard{
+    text-align: center;
+    background-color:  rgb(199, 199, 199);
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+.shows{
+    text-align: center;
+    background-color:  #ffffff;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .infoshows {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .infoshows p {
+    margin-bottom: 10px;
+  }
+  .infoshows img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    .infoshows {
+      width: 100%; 
+    }
+  }
+  footer h5{
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: Cormorant Garamond;
+  }
+  

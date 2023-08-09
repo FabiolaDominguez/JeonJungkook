@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lugrasimo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@1,300&family=Lugrasimo&display=swap');
+
+#logo {
+    width: 100%;
+    height: 170px;
+  }
+header{
+    background-color: #000000;
+}
+nav {
+    background-color: #000000;
+    padding: 10px;
+    align-content: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+ header ul li {
+    margin: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    transition: background-color 0.3s;
+  }
+  a:hover {
+    background-color: #555;
+  }
+  @media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  body{
+    margin: 0;
+    background-color: rgb(199, 199, 199);
+  }
+  *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h2{
+    font-family: cinzel;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.container{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+}
+footer h5{
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: Cormorant Garamond;
+  }

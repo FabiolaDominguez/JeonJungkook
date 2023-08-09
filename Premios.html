@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premios de Jungkook</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-..."
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="premios.css" />
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <img id="logo" src="imagenes/headerjk.jpg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+              <a href="index.html"><li>Regresar al nicio</li></a>
+            </ul>
+          </nav>
+    </header>
+   
+    <main>
+        <div class="container-fluid">
+            <h1>Premios y reconcimientos de "SEVEN"</h1>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/cien.jpg" class="d-block w-100 img-fluid" alt="BillHot100">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/global.jpg" class="d-block w-100 img-fluid" alt="BillGlobal">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/exus.jpg" class="d-block w-100 img-fluid" alt="BillGlobalexUS">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+        <div class="billboard">
+          <div class="container-fluid">
+            <p>El 24 de julio, se publicaron los resultados correspondientes a la última semana de las prestigiosas listas Billboard Hot 100, Billboard Global 200 y Billboard Global Excl. US. y los fans de BTS descubrieron que Jungkook recibió el primer lugar en su debut en solitario. Esta hazaña solo la había logrado BTS como grupo, Jimin con su canción en solitario “Like Crazy” y ahora JK con su canción “SEVEN”.</p>
+            <p>Ahora, el cantante surcoreano de 25 años está haciendo historia. El logro se reveló a en la madrugada de Corea del Sur, pero las redes sociales de BTS publicaron un saludo al cantante en su primer triunfo a nivel mundial. El fandom ARMY también se sumó a la celebración con publicaciones en línea.</p>
+          </div>
+        </div>
+        <div class="shows">
+            <div class="container-fluid">
+                <p>Aunque es una superestrella con un sinfín de logros impresionantes, Jungkook de BTS se asombró por completo cuando fue anunciado como el flamante ganador de 'Inkigayo' durante la emisión en vivo del domingo 30 de julio. La curiosa reacción que tuvo en el programa musical de Corea del Sur se ha vuelto viral en redes sociales, mientras fans destacan lo humilde que se mantiene, pese a ser uno de los ídolos del k-pop más top del momento.</p>
+                <p>Actualmente la cancón "SEVEN" ha ganado alrededor de 7 premios de primer lugar en shows reconocidos en Corea del sur.</p>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            
+            <div class="infoshows">
+                <h3>Inkigayo</h3>
+            <div id="inki">
+                <p>Inkigayo, también conocido como The Music Trend, es un programa de música surcoreano perteneciente al canal SBS. Se emite los domingos a las 15:40 hrs. desde el SBS Open Hall en Gangseo-gu, Seúl. El programa cuenta con la participación en vivo de artistas musicales de la música pop surcoreana.</p>
+                <img src="imagenes/inkigayo.png" alt="Inkigayo">
+            </div>
+                <button onclick="muestra_oculta('inki')" class="btn btn-primary">+</button>
+            </div>
+
+            <div class="infoshows">
+                <h3>Show Champion</h3>
+            <div id="chan">
+                <p>Show Champion es un programa de música surcoreano que se transmite en vivo todos los miércoles a las 18:00 KST en Bitmaru Broadcasting Center en Ilsan MBC Music. Es presentado por la comediante Kim Shin-young y varios MC invitados pertenecientes a grupos musicales.</p>
+                <img src="imagenes/showchampion.png" alt="Show Champion">
+            </div>
+            <button onclick="muestra_oculta('chan')" class="btn btn-primary">+</button>
+            </div>
+
+            <div class="infoshows">
+                <h3>Mcountdown</h3>
+            <div id="mc">
+                <p>M Countdown es un programa de música surcoreano transmitido por Mnet desde 2004 en el que actúan en directo artistas populares. Se transmite en vivo todos los jueves de 18:00 a 19:00 KST, se graba en el CJ E&M Center Studio, Sangam-dong, Seúl.</p>
+                <img src="imagenes/mcountdown.jpg" alt="Mcountdown">
+            </div>
+            <button onclick="muestra_oculta('mc')" class="btn btn-primary">+</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <h5>Derechos reservados [Página original prácticas JA]</h5>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
